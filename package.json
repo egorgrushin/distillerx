@@ -1,6 +1,6 @@
 {
   "name": "distillerx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Reduxly library to create and manage store with entities, combination of entities and more",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
