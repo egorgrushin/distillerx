@@ -1,36 +1,40 @@
 {
-  "name": "distillerx",
-  "version": "1.0.5",
-  "description": "Reduxly library to create and manage store with entities, combination of entities and more",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "prepare": "npm run build",
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "redux",
-    "rxjs",
-    "ngrx",
-    "angular"
-  ],
-  "author": "Egor Grushin (GrushinEgor)",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/lodash": "^4.14.74",
-    "@types/uuid": "^3.4.2",
-    "typescript": "^2.5.2"
-  },
-  "dependencies": {
-    "@angular/core": "^4.4.0-RC.0",
-    "@angular/http": "^4.4.0-RC.0",
-    "@ngrx/store": "^4.0.3",
-    "combine-reducers": "^1.0.0",
-    "lodash": "^4.17.4",
-    "reselect": "^3.0.1",
-    "rxjs": "^5.4.3",
-    "url-template": "^2.0.8",
-    "uuid": "^3.1.0"
-  }
+    "name": "distillerx",
+    "version": "1.0.6",
+    "description": "Reduxly library to create and manage store with entities, combination of entities and more",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "prepare": "npm run build",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "redux",
+        "rxjs",
+        "ngrx",
+        "angular"
+    ],
+    "author": "Egor Grushin (GrushinEgor)",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GrushinEgor/distillerx.git"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.74",
+        "@types/uuid": "^3.4.2",
+        "typescript": "^2.5.2"
+    },
+    "dependencies": {
+        "@angular/core": "^4.4.0-RC.0",
+        "@angular/http": "^4.4.0-RC.0",
+        "@ngrx/store": "^4.0.3",
+        "combine-reducers": "^1.0.0",
+        "lodash": "^4.17.4",
+        "reselect": "^3.0.1",
+        "rxjs": "^5.4.3",
+        "url-template": "^2.0.8",
+        "uuid": "^3.1.0"
+    }
 }
